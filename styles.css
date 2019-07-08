@@ -122,8 +122,8 @@ section {
 	background-color: yellow;
 	background-image: url(glass.jpg);
 	background-size: cover;
-	height: calc(100vh - 100px);
-	width: calc(100vw - 200px);
+	height: calc(100% - 100px);
+	width: calc(100% - 200px);
 	border-radius: 5px;
 	display: flex;
 	align-items: center;
@@ -195,7 +195,7 @@ section {
   }
 
   .text_container {
-  	width: calc(100vw - 80px);
+  	width: calc(100% - 80px);
   	height: 200px;
   	margin-left: 20px;
   	margin-bottom: 20px;
