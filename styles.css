@@ -80,7 +80,7 @@ h1 {
 
 section {
 	width: calc(100% - 200px);
-	height: 100vh;
+	height: 100%;
 	scroll-snap-align: start;
 	margin-left: 100px;
 }
