@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
 	<head>
 		<meta charset="utf-8">
 		<link href="styles.css" type="text/css" rel="stylesheet">
+		<!-- <link rel="stylesheet" href="splashCSS.css" type="text/css"> -->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://use.typekit.net/ozj0ipx.css">
+		<script src="https://kit.fontawesome.com/e2c53b87fa.js" crossorigin="anonymous"></script>
 		<title>Nav and Footer Test</title>
 	</head>
 	<body>
@@ -18,12 +20,12 @@
 					<a><img src="hamburger.svg" class="icon_filter"></a>
 				</div>
 				<div id="work_links">
-					<a>Public</a>
-					<a>Personal</a>
+					<a href="#pill_pal" id="current_page">Focused</a>
+					<a href="Fun/index.html">Fun</a>
+					<a href="">About</a>
 				</div>
 			</div>
 		</nav>
-
 		<footer>
 			<!-- Lower Nav -->
 			<div class="nav_container" id="footer_wrapper">
@@ -37,69 +39,88 @@
 				</div>
 			</div>
 		</footer>
-
+		<div class="slide_menu">
+            <i class="fas fa-times" id="close_slide_menu"></i>
+            <a href="#pill_pal" id="current_page">Focused</a>
+            <a href="Fun/index.html">Fun</a>
+            <a href="">About</a>
+            <div id="links_slide">
+                <a href="https://www.instagram.com/wil_works/"><img src="insta_icon.svg" class="icon_filter"></a>
+                <a><img src="twitter_icon.svg" class="icon_filter"></a>
+                <a><img src="resume.svg"class="icon_filter"></a>
+            </div>
+        </div>
 		<!-- Content -->
 		<div id="scroller">
+			<div id="exSP"></div>
 			<section id="splash">
 				<div id="splash_container">
-					<h1>I am a visual designer with an emphasis on branding, illustration, and playful interaction.</h1>
+					<h1>I am a visual designer with an emphasis on user centered design and playful interaction.</h1>
 				</div>
 			</section>
-
-			<!-- Credit Card -->
-			<section id="credit_card">
-				<div class="project_card">
+			<!-- Pill Pal -->
+			<section id="pill_pal">
+				<div class="project_card one">
 					<div class="text_container" id="credit_text_container">
 						<div class="upper_text">
-							<h1>The Project.</h1>
-							<p>Sample text to test if the description for the project is froming correctly inside its container. Please ignore, this text. Thank you. Come again!</p>
+							<h1>Pill Pal</h1>
+							<p>A system to help patients with heart disease develop and maintain medicine adherence.</p>
 						</div>
 						<div class="lower_text">
-							<p>Motion Graphics</p>
-							<p>@Personal</p>
-							<p>Branding, UI</p>
 							<p>2019</p>
+							<p>Branding, Product Design</p>
 						</div>
 					</div>
 				</div>
 			</section>
-
-			<!-- 60 Mile String -->
-			<section id="charles_kao">
-				<div class="project_card">
+			<!-- Drive Sans -->
+			<section id="drive_sans">
+				<div class="project_card two">
 					<div class="text_container" id="credit_text_container">
 						<div class="upper_text">
-							<h1>The Project.</h1>
-							<p>Sample text to test if the description for the project is froming correctly inside its container. Please ignore, this text. Thank you. Come again!</p>
+							<h1>Drive Sans</h1>
+							<p>A typeface built in HTML, CSS, and JS.</p>
 						</div>
 						<div class="lower_text">
-							<p>Motion Graphics</p>
-							<p>@Personal</p>
-							<p>Branding, UI</p>
 							<p>2019</p>
+							<p>Front-End Development</p>
 						</div>
 					</div>
 				</div>
 			</section>
-
 			<!-- Tell Me How -->
-			<section id="tell_me_how">
-				<div class="project_card">
+			<section id="sixty_mile">
+				<div class="project_card three">
 					<div class="text_container" id="credit_text_container">
 						<div class="upper_text">
-							<h1>The Project.</h1>
-							<p>Sample text to test if the description for the project is froming correctly inside its container. Please ignore, this text. Thank you. Come again!</p>
+							<h1>60 Mile String</h1>
+							<p>Poster biography of scientist Charles K. Kao.</p>
 						</div>
 						<div class="lower_text">
-							<p>Motion Graphics</p>
-							<p>@Personal</p>
-							<p>Branding, UI</p>
 							<p>2019</p>
+							<p>Poster Design</p>
 						</div>
 					</div>
 				</div>
 			</section>
+			<!-- The Groove -->
+			<section id="the_groove">
+				<div class="project_card four">
+					<div class="text_container" id="credit_text_container">
+						<div class="upper_text">
+							<h1>The Groove</h1>
+							<p>Web experience to bring users, their Spotify accounts and great tunes together.</p>
+						</div>
+						<div class="lower_text">
+                    		<p>2019</p>
+                    		<p>Front-End Development</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div id="exSP"></div>
 		</div>
-
+		<script src="mainJS.js"></script>
+		<script src="slideMenuJS.js"></script>
 	</body>
 </html>
