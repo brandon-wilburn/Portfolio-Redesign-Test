@@ -5,9 +5,11 @@
 }
 
 .description {
-    position: absolute;
+    /* position: absolute;
     margin-left: 100px;
-    margin-top: 40px;
+    margin-top: 40px; */
+    margin-bottom: 20px;
+    opacity: .75;
 }
 
 .projTitle {
@@ -41,6 +43,7 @@
 
 .info p {
     width: calc(50% - 10px);
+    /* width: 100%; */
     margin: 0;
     /* width: 50%; */
 }
@@ -50,6 +53,10 @@
     justify-content: space-between;
 }
 
+.infoBox p:last-of-type {
+    margin-top: 20px;
+}
+
 @media screen and (max-width: 776px) {
 
     h1 {
@@ -57,12 +64,16 @@
     }
 
     .description {
-        margin-left: 20px;
+        /* margin-left: 20px; */
     }
 
     .projTitle {
         width: calc(100% - 40px);
         left: 20px;
+    }
+
+    .projTitle p {
+        width: 50%;
     }
 
     #hamburger_icon {
@@ -90,14 +101,19 @@
     }
 
     .info {
-        height: 90%;
+        height: auto;
         width: 100%;
         padding-left: 20px;
         padding-right: 20px;
+        padding: 20px 20px 20px 20px;
         box-sizing: border-box;
         display: flex;
         justify-content: center;
         flex-direction: column;
+    }
+
+    .info p {
+        width: 100%;
     }
 
     .infoBox {
@@ -107,7 +123,7 @@
     }
 
     .page {
-        height: auto;
+        height: 90%;
         width: 100%;
         /* background-color: orange; */
         padding-left: 20px;
@@ -129,6 +145,8 @@
 
     .page img {
         width: 100%;
+        height: 100%;
+        object-fit: cover;
         margin: 0;
     }
 

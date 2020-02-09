@@ -176,7 +176,7 @@ h1 {
 
 section {
 	width: 100%;
-	height: 90vh;
+	height: 90%;
 	scroll-snap-align: center;
 	background-repeat: no-repeat;
 	position: relative;
@@ -326,9 +326,13 @@ section {
 
   .text_container {
   	width: calc(100vw - 40px);
-  	height: 200px;
+  	height: auto;
   	margin-left: 20px;
   	margin-bottom: 20px;
+  }
+
+  .lower_text {
+	  position: static;
   }
 
   .project_card {

@@ -6,11 +6,19 @@
     align-items: center;
 }
 
-.infoBox {
+.infoBoxSS {
     height: 75%;
     width: 50%;
     justify-content: center;
     flex-direction: column;
+}
+
+.info-lower-text > .infoBox {
+    width: 100%;
+}
+
+.infoBox p {
+    margin-top: none;
 }
 
 .explains {
@@ -40,3 +48,23 @@
     width: 100%;
 }
 
+@media screen and (max-width: 776px) {
+    .info {
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .infoBoxSS {
+        width: 100%;
+        height: auto;
+    }
+
+    .explains {
+        width: 75%;
+        margin: 20px 0px;
+    }
+
+    .explains img {
+        width: 100%;
+    }
+}

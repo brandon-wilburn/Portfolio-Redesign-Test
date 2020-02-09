@@ -4,7 +4,7 @@ iframe {
     position: static;
 }
 
-.imgcropper {
+.imgcropper, .special {
     height: 90%;
     width: 100%;
     overflow: hidden;
@@ -83,4 +83,48 @@ iframe {
 
 #exSP {
 	height: 5vh;
+}
+
+@media screen and (max-width: 776px) {
+    .img-grid {
+        margin-bottom: 20px;
+    }
+
+    .img-grid img {
+        width: 100%;
+    }
+
+    .special {
+        height: auto;
+        width: 100%;
+        overflow: visible;
+        display: flex;
+        align-items: center;
+    }
+
+    .img-grid-section {
+        height: auto;
+    }
+
+    #images {
+        height: auto;
+        flex-wrap: wrap;
+    }
+
+    .outer-wrapper {
+        width: 100%;
+    }
+
+    .image-container {
+        height: 75vw;
+        overflow: hidden;
+    }
+
+    .page {
+        height: auto;
+    }
+
+    .groove-button {
+        display: none;
+    }
 }

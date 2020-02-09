@@ -72,3 +72,48 @@ iframe {
     width: auto;
     /* width: 100%; */
 }
+
+@media screen and (max-width: 776px) {
+    .img-grid {
+        margin-bottom: 20px;
+    }
+
+    .img-grid img {
+        width: 100%;
+    }
+
+    .imgcropper {
+        height: auto;
+        width: 100%;
+        overflow: visible;
+        display: flex;
+        align-items: center;
+    }
+
+    .img-grid-section {
+        height: auto;
+    }
+
+    #images {
+        height: auto;
+        flex-wrap: wrap;
+    }
+
+    #right-images {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    #right-bottom-images {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    #image-one, #image-two {
+        width: 100%;
+    }
+
+    #big-left {
+        width: 100%;
+    }
+}

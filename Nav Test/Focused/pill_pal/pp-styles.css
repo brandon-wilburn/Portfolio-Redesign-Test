@@ -10,6 +10,12 @@
     align-items: center;
 }
 
+@media screen and (max-width: 776px) {
+    .infoBoxActiveContainer {
+        flex-direction: column;
+    }
+}
+
 .infoBox {
     width: 100%;
 }
