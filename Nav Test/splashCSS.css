@@ -151,9 +151,9 @@
     }
 
     #inner_wrapper {
-        transform: rotate(90deg) translateY(-100vh);
+        /* transform: rotate(90deg) translateY(-100vh); */
         transform-origin: top left;
-        height: 100vh;
+        height: 100%;
         /* width: 2260px; */
         width: calc((250px * 4) + 120px);
         display: flex;

@@ -32,17 +32,17 @@ body {
 #side_scroller {
     /* bottom:0; */
 	/* left:0; */
-	height: 100vw;
-    width: 100vh;
+	height: 100%;
+    width: 100%;
     top: 0;
     left: 0;
     position: absolute;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    transform: rotate(-90deg) translateX(-100vh);
+    overflow-y: hidden;
+    overflow-x: scroll;
+    /* transform: rotate(-90deg) translateX(-100vh); */
     transform-origin: top left;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
+    /* scrollbar-width: none; */
+    /* -ms-overflow-style: none; */
     /* background-color: orange; */
 }
 
@@ -51,9 +51,9 @@ body {
 }
 
 #inner_wrapper {
-    transform: rotate(90deg) translateY(-100vh);
+    /* transform: rotate(90deg) translateY(-100vh); */
     transform-origin: top left;
-    height: 100vh;
+    height: 100%;
     /* width: 2260px; */
     width: calc((33vw * 4) - 120px);
     display: flex;
