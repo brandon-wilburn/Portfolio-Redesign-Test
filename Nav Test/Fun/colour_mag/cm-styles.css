@@ -7,3 +7,10 @@ iframe {
 #exSP {
 	height: 5vh;
 }
+
+@media screen and (max-width: 776px) {
+
+    .right.pnb {
+        display: none;
+    }
+}
