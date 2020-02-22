@@ -120,12 +120,12 @@ a {
 	margin-left: 20px;
 }
 
-#work_links a, #name_wordmark a {
+#work_links a, #name_wordmark a, #email_me a {
 	text-decoration: none;
 	color: inherit;
 }
 
-#work_links a:hover, #name_wordmark a:hover {
+#work_links a:hover, #name_wordmark a:hover, #email_me:hover {
 	color: grey;
 }
 
@@ -310,6 +310,7 @@ section {
 
   .nav_container {
 	padding: 0 20px 0px 20px;
+	background-color: rgba(16, 15, 18, 1);
   }
 
   .upper_text p, #work_links, #email_me, #links  {
@@ -342,6 +343,16 @@ section {
   .description {
 	  margin-left: 20px;
   }
+
+	#pill_pal {
+		background-image: url(Focused/pill_pal/mobile-hand.jpg);
+		background-position: right;
+	}
+
+	#sixty_mile {
+		background-image: url(Focused/60_mile/mobile-card.jpg);
+		background-position: center;
+	}
 
 }
 

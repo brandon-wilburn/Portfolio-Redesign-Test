@@ -23,7 +23,7 @@ iframe {
 #big-left {
     height: 100%;
     width: calc(50% - 10px);
-    /* background-color: white; */
+    background-color: #151b1b;
 }
 
 #right-images {
@@ -38,7 +38,7 @@ iframe {
 #right-top {
     height: calc(50% - 10px);
     width: 100%;
-    /* background-color: white; */
+    background-color: #151b1b;
 }
 
 #right-bottom-images {
@@ -52,13 +52,13 @@ iframe {
 #image-one {
     height: 100%;
     width: calc(50% - 10px);
-    /* background-color:  yellow; */
+    background-color: #151b1b;
 }
 
 #image-two {
     height: 100%;
     width: calc(50% - 10px);
-    /* background-color: yellow; */
+    background-color: #151b1b;
 }
 
 .img-grid {

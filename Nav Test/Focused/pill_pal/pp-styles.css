@@ -46,6 +46,39 @@
     margin-bottom: 0;
 }
 
+.infoBoxSS {
+    height: 75%;
+    width: 50%;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.diagram-info p {
+    width: 100%;
+}
+
+.diagram-info {
+    height: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.diagram {
+    height: 75%;
+    width: 50%;
+    /* width: 10px; */
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+}
+.diagram img {
+    height: 100%;
+    /* width: auto; */
+}
+
 .explains {
     height: 75%;
     width: 50%;
@@ -72,7 +105,7 @@
 }
 
 .button:hover {
-    background-color: #3B4877;
+    background-color: #758CE5;
     cursor: pointer;
 }
 
@@ -115,5 +148,26 @@ iframe {
     background-image: url(texture-icon-11.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 776px) {
+    .diagram-info {
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .infoBoxSS {
+        width: 100%;
+        height: auto;
+    }
+
+    .diagram {
+        width: 75%;
+        margin: 20px 0px;
+    }
+
+    .diagram img {
+        width: 100%;
+    }
 }
 

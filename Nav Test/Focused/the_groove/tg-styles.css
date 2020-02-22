@@ -12,7 +12,6 @@ iframe {
     align-items: center;
 }
 
-
 #images {
     height: 100%;
     width: 100%;
@@ -126,5 +125,15 @@ iframe {
 
     .groove-button {
         display: none;
+    }
+
+    .screen {
+        justify-content: center;
+    }
+
+    .screen img {
+        width: 220%;
+        height: 230%;
+        /* object-fit: none; */
     }
 }

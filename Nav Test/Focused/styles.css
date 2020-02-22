@@ -213,12 +213,12 @@ a {
     color: grey !important;
 }
 
-#work_links a, #name_wordmark a, .prev-next a {
+#work_links a, #name_wordmark a, .prev-next a, #email_me a {
     text-decoration: none;
 	color: inherit;
 }
 
-#work_links a:hover, #name_wordmark a:hover , .prev-next a:hover{
+#work_links a:hover, #name_wordmark a:hover , .prev-next a:hover, #email_me:hover {
 	color: grey;
 }
 
@@ -407,4 +407,16 @@ iframe {
 .left i {
     /* margin-right: 20px; */
     margin: 0;
+}
+
+@media screen and (max-width: 776px) {
+    /* .nav_container {
+        padding: 0 20px 0px 20px;
+        background-color: rgba(16, 15, 18, 1);
+      } */
+      
+    .pp {
+        background-image: url(pill_pal/mobile-hand.jpg);
+        background-position: right;
+    }
 }

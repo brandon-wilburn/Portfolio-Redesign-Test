@@ -213,12 +213,12 @@ a {
     color: grey !important;
 }
 
-#work_links a, #name_wordmark a, .prev-next a {
+#work_links a, #name_wordmark a, .prev-next a, #email_me a {
     text-decoration: none;
 	color: inherit;
 }
 
-#work_links a:hover, #name_wordmark a:hover , .prev-next a:hover{
+#work_links a:hover, #name_wordmark a:hover , .prev-next a:hover, #email_me:hover {
 	color: grey;
 }
 
@@ -281,7 +281,7 @@ iframe {
     justify-content: center;
     position: absolute;
     height: 5vh;
-    width: 100%;
+    /* width: 100%; */
     bottom: 0px;
     left: 50%;
     transform: translateX(-50%);
@@ -322,7 +322,7 @@ iframe {
     background-image: url(tmh/splash2-04.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: left;
 }
 
 .ss {
@@ -396,4 +396,16 @@ iframe {
 .left i {
     /* margin-right: 20px; */
     margin: 0;
+}
+
+@media screen and (max-width: 776px) {
+    .nav_container {
+        padding: 0 20px 0px 20px;
+        background-color: rgba(16, 15, 18, 1);
+      }
+      
+    .tmh {
+        background-image: url(tmh/mobile-splash.jpg);
+        background-position: right;
+    }
 }
